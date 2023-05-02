@@ -6356,11 +6356,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MicroServicesProject\\PlatformServices\\PlatformServices.csproj",
+      "projectUniqueName": "D:\\MicroServicesProject\\MicroService\\PlatformService\\PlatformServices.csproj",
       "projectName": "PlatformServices",
-      "projectPath": "D:\\MicroServicesProject\\PlatformServices\\PlatformServices.csproj",
+      "projectPath": "D:\\MicroServicesProject\\MicroService\\PlatformService\\PlatformServices.csproj",
       "packagesPath": "C:\\Users\\berkantsubasi\\.nuget\\packages\\",
-      "outputPath": "D:\\MicroServicesProject\\PlatformServices\\obj\\",
+      "outputPath": "D:\\MicroServicesProject\\MicroService\\PlatformService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"

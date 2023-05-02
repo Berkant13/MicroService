@@ -38,6 +38,8 @@ namespace PlatformServices
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PlatformServices", Version = "v1" });
             });
+            Console.WriteLine($"--> CommandService Endpoint {Configuration["CommandService"]}");
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -60,6 +62,7 @@ namespace PlatformServices
                 endpoints.MapControllers();
             });
             PrepDb.PrepPopulation(app);
+            Console.WriteLine();
         }
     }
 }
