@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: commandservice
-          image: borkant/commandservice 
+          image: borkant/commandservice:test
 
 ---
 apiVersion: v1

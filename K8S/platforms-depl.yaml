@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: platformservice
-          image: borkant/platformservices
+          image: borkant/platformservices:test
 
 ---
 apiVersion: v1

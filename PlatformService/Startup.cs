@@ -38,7 +38,8 @@ namespace PlatformServices
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PlatformServices", Version = "v1" });
             });
-            Console.WriteLine($"--> CommandService Endpoint {Configuration["CommandService"]}");
+            Console.WriteLine($"--> CommandServicess Endpoint {Configuration["CommandService"]}");
+       
 
         }
 
@@ -51,8 +52,8 @@ namespace PlatformServices
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PlatformServices v1"));
             }
 
-            app.UseHttpsRedirection();
-
+            // app.UseHttpsRedirection();
+            
             app.UseRouting();
 
             app.UseAuthorization();
