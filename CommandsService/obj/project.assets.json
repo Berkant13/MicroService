@@ -1141,11 +1141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MicroServicesProject\\CommandsService\\CommandsService.csproj",
+      "projectUniqueName": "D:\\Profiles\\berkantsubasi\\Desktop\\microservice\\MicroService\\CommandsService\\CommandsService.csproj",
       "projectName": "CommandsService",
-      "projectPath": "D:\\MicroServicesProject\\CommandsService\\CommandsService.csproj",
+      "projectPath": "D:\\Profiles\\berkantsubasi\\Desktop\\microservice\\MicroService\\CommandsService\\CommandsService.csproj",
       "packagesPath": "C:\\Users\\berkantsubasi\\.nuget\\packages\\",
-      "outputPath": "D:\\MicroServicesProject\\CommandsService\\obj\\",
+      "outputPath": "D:\\Profiles\\berkantsubasi\\Desktop\\microservice\\MicroService\\CommandsService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
