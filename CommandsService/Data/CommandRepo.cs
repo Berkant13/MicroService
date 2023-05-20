@@ -38,7 +38,7 @@ namespace CommandService.Data
 
         public bool PlatformExists(int platformId)
         {
-            throw new System.NotImplementedException();
+            return _context.Platforms.Any(p => p.Id == platformId);
         }
 
         public bool saveChanges()
