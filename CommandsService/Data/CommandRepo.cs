@@ -24,7 +24,7 @@ namespace CommandService.Data
 
         public IEnumerable<Platform> GetAllPlatforms()
         {
-            throw new System.NotImplementedException();
+            return _context.Platforms.ToList();
         }
 
         public Command GetCommand(int platformId, int commandId)
