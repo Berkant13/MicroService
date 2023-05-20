@@ -43,7 +43,7 @@ namespace CommandService.Data
 
         public bool saveChanges()
         {
-            throw new System.NotImplementedException();
+            return (_context.SaveChanges() >= 0);
         }
     }
 }
