@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using CommandService.Models;
 
 namespace CommandService.Data
@@ -33,7 +34,9 @@ namespace CommandService.Data
 
         public IEnumerable<Command> GetCommandsForPlatform(int platformId)
         {
-            throw new System.NotImplementedException();
+            return _context.Commands
+                .Where(c => c.PlatformId == platformId)
+                .OrderBy(c => c.Platform.Name);
         }
 
         public bool PlatformExists(int platformId)
