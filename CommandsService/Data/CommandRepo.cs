@@ -29,7 +29,9 @@ namespace CommandService.Data
 
         public Command GetCommand(int platformId, int commandId)
         {
-            throw new System.NotImplementedException();
+            return _context.Commands
+                .Where(c => c.PlatformId == platformId && c.Id == commandId)
+                .FirstOrDefault();
         }
 
         public IEnumerable<Command> GetCommandsForPlatform(int platformId)
