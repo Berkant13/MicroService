@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dlG4ignwE2LaJ38eNJKFPTqXZgiAOTwcIjavIirBP5xobvLwKIcI3qVIFbTr6XZszWw/4N1OkYvpJTFS58g7FA==",
+  "dgSpecHash": "65RjFKIWjX8F/jgLUfW8dd8xsZms++QjcfE2dfqncEP9sKJ/YsliB+ZgmKTC9Kml1Wyws9Mc4aIJ/uOPJWpw7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\berka\\OneDrive\\Documents\\GitHub\\MicroService\\PlatformService\\PlatformServices.csproj",
+  "projectFilePath": "c:\\Users\\berka\\OneDrive\\Documents\\GitHub\\MicroService\\PlatformService\\PlatformServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berka\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
