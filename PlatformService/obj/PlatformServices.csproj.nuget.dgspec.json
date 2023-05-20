@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Profiles\\berkantsubasi\\Desktop\\microservice\\MicroService\\PlatformService\\PlatformServices.csproj": {}
+    "C:\\Users\\berka\\OneDrive\\Documents\\GitHub\\MicroService\\PlatformService\\PlatformServices.csproj": {}
   },
   "projects": {
-    "D:\\Profiles\\berkantsubasi\\Desktop\\microservice\\MicroService\\PlatformService\\PlatformServices.csproj": {
+    "C:\\Users\\berka\\OneDrive\\Documents\\GitHub\\MicroService\\PlatformService\\PlatformServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Profiles\\berkantsubasi\\Desktop\\microservice\\MicroService\\PlatformService\\PlatformServices.csproj",
+        "projectUniqueName": "C:\\Users\\berka\\OneDrive\\Documents\\GitHub\\MicroService\\PlatformService\\PlatformServices.csproj",
         "projectName": "PlatformServices",
-        "projectPath": "D:\\Profiles\\berkantsubasi\\Desktop\\microservice\\MicroService\\PlatformService\\PlatformServices.csproj",
-        "packagesPath": "C:\\Users\\berkantsubasi\\.nuget\\packages\\",
-        "outputPath": "D:\\Profiles\\berkantsubasi\\Desktop\\microservice\\MicroService\\PlatformService\\obj\\",
+        "projectPath": "C:\\Users\\berka\\OneDrive\\Documents\\GitHub\\MicroService\\PlatformService\\PlatformServices.csproj",
+        "packagesPath": "C:\\Users\\berka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berka\\OneDrive\\Documents\\GitHub\\MicroService\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\berkantsubasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Users\\berka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,9 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/qYki4DqScIpshJTFCcwn6PGwovGdP1D27GIvHfaKiI6xEGlpwD/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -68,6 +62,10 @@
               "target": "Package",
               "version": "[5.0.8, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -92,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
